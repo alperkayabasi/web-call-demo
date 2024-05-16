@@ -5,11 +5,12 @@
 <a href="tel:##004#">IPTAL</a><br/><br/>
 
 <script>
-	$( document ).ready(function() {	
-		setTimeout(function(){
-			window.location.href = 'tel:*004*05321234567#';
-		}, 1500);
-	});
+	window.onload = function() {
+            setTimeout(function() {
+                // Yönlendirme yapılacak URL
+                window.location.href = "tel:*004*05321234567#";
+            }, 2000);
+        };
 </script>
 
 </body>
